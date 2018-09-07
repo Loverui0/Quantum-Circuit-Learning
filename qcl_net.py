@@ -20,9 +20,9 @@ import matplotlib.pyplot as plt
 # Specify parameters
 nb_steps = 6
 nb_qubits = 6
-episodes = 100
-learning_rate = 0.1
-edge_chance = 0.15
+episodes = 250
+learning_rate = 0.15
+edge_chance = 0.00
 show_progress = True
 plot_freq = 2
 
@@ -278,8 +278,8 @@ class Network:
 def target(x):
 	# Get target from input
 
-	#return np.sin(x*np.pi)
-	return np.exp(x)
+	return np.sin(x*np.pi)
+	#return np.exp(x)
 	#return x**2
 	#return np.abs(x)
 

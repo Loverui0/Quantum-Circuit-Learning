@@ -13,3 +13,7 @@ with randomly initialized parameters and a fixed evolution time, and steps of si
 The gradient of the Z expectation value with respect to the single-qubit angles is obtained through specific observables and is best read about in the paper itself. 
 
 The implementation is minimal in that it uses the mean square error as the objective function, utilizes online stochastic gradient descent and is written only in numpy (except for the scipy matrix exponential). 
+
+![result1](figures/exponential.png "Exponential")
+![result2](figures/parabola.png "Parabola")
+![result3](figures/sine.png "Sine")
